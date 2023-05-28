@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer, .nr1{
+    background-color: #1F2937;
+    color: aliceblue;
+}
+
+/*  This is the qoute block styling */
+
+.quote{
+    background-color: #E5E7EB;
+    color: #1F3729;
+    font-style:italic;
+    font-weight: light;
+    font-size: 36px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    padding:0px;
+    margin:0px;
+}
+
+.thor{
+    align-self: flex-end;
+}
+
+/*  This is the action block styling */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    padding:48px;
+    margin: 48px;;
+    background-color: #3882F6;
+    color: white;
+}
